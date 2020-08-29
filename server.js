@@ -5,7 +5,7 @@ require("dotenv").config();
 const DetectFaces = require("./controllers/DetectFaces");
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT;
 
 // Connect Database
 mongoose
