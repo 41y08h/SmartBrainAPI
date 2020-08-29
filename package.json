@@ -4,7 +4,7 @@
   "description": "Backend API for SmartBrain App.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Piyush",
   "license": "ISC",
